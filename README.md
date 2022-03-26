@@ -27,6 +27,22 @@
 **Build Project**
 
     npm run start
+****
+## Project Config
+
+1. **Database Port -> 5423**
+2. **Express Port -> 3000**
+
+****
+
+## How to setup the database
+1. Use .env file included
+
+2. Create two databases with the configurations found in database.json
+
+3. Migrate the dev database with the following code
+
+        db-migrate up
 
 ****
 
